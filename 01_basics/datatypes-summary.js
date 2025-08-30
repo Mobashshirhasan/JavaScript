@@ -34,3 +34,28 @@ const myFunction = function(){
 console.log(typeof myObj)
 
 // all the non-primitive's type will be object only
+
+
+// ***********************************************
+//  Stack (Primitive),  Heap (Non-Primitive)
+
+let myYoutubename = "mobashshirhasan"
+
+let anothername = myYoutubename
+anothername = "mobashshirjavascrript"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userone = {
+    email: 'mobashshir12@gmail.com',
+    upi: "user@ybl"
+}
+
+let usertwo = userone
+
+usertwo.email = "abcd@gmial.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
