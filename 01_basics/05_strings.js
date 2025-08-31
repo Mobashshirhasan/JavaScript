@@ -24,3 +24,11 @@ console.log(anotherString);
 const newStringOne = "   mobashshir   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
+
+const url = "https://mobashshir.com%20hasan"
+
+console.log(url.replace('%20', '-'))
+
+console.log(url.includes('mobash'))
+
+console.log(gameName.split('-'));
