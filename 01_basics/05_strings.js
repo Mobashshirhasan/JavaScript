@@ -17,3 +17,10 @@ console.log(gameName.indexOf('h'));
 
 const newString =  gameName.substring(0, 4);
 console.log(newString);
+
+const anotherString = gameName.slice(-5, 3)
+console.log(anotherString);
+
+const newStringOne = "   mobashshir   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
