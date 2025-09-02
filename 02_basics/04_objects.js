@@ -42,12 +42,39 @@ const users = [
     },
 ]
 
-users[1].email
-console.log(tinderUser);
+// users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+const course = {
+    coursenmae: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+const {courseInstructor : instructor} = course //destructure
+console.log(instructor);
+
+//json
+// {
+//     "name": "MObashshir",
+//     "course":"js in hindi",
+//     "price": "free"
+// }
+
+// Array in loop. An object is in the Array
+[
+    {},
+    {},
+    {}
+]
