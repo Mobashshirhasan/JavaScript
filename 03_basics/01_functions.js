@@ -30,11 +30,16 @@ const result = addTwoNumber(4, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username){
+function loginUserMessage(username = "sam"){ //default value 'sam'
+    // if (username === undefined){
+    if (!username){
+        console.log("Please enter username")
+        return
+    }
     return `${username} just logged in`
 }
 
 // console.log(loginUserMessage("MObashshir"))
-console.log(loginUserMessage())  //undefined
+console.log(loginUserMessage(""))  //if we don't pass any value then it wil undefined
+console.log(loginUserMessage("Mobashshir"))  //if we pass any value then it will override the value of username
 
- 
