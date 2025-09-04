@@ -11,7 +11,7 @@ function sayMyName(){
     console.log("R");
 }
 
-sayMyName()
+// sayMyName()
 
 
 // function addTwoNumber(number1 , number2){
