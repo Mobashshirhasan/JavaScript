@@ -47,7 +47,7 @@ console.log(addone(5))
 function addone(num){
     return num +1
 }
-
+print(hello)
 
 // addTwo(5)
 const addTwo = function(num){
