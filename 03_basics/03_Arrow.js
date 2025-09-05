@@ -12,4 +12,11 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-console.log(this);
+// console.log(this);
+
+function chai(){
+    let username = "Mobashshir"
+    console.log(this );
+}
+
+chai()
