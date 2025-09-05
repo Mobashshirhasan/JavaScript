@@ -49,7 +49,8 @@ function addone(num){
 }
 print(hello)
 
-// addTwo(5) 
+// addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+
