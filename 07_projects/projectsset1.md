@@ -1,4 +1,4 @@
-# Solution code
+# Solution code..
 
 ## project 1
 
@@ -30,7 +30,7 @@ buttons.forEach(function(button){
 ```
 
 
-## Project 2
+## Project 2 Solution
 
 ```
 
