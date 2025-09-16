@@ -58,3 +58,9 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
+## Project 3 Solutions
+
+```
+Javascripts
+```
