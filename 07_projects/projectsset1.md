@@ -1,8 +1,10 @@
-# Solution code
+# Solution code..
 
 ## project 1
 
 ```
+Javascript
+
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector("body")
 
@@ -30,9 +32,10 @@ buttons.forEach(function(button){
 ```
 
 
-## Project 2
+## Project 2 Solution
 
 ```
+Javascript
 
 const form = document.querySelector('form');
 // this usecase will give you empty
@@ -57,4 +60,10 @@ form.addEventListener('submit', function (e) {
 });
 
 
+```
+
+## Project 3 Solutions
+
+```
+Javascript
 ```
