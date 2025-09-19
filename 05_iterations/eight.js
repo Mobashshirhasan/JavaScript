@@ -24,6 +24,10 @@ const shoppingCart = [
         itemName: "react course",
         price: 599
     },
+    {
+        itemName: "react course",
+        price: 599
+    },
 
 ]
 
