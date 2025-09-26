@@ -24,7 +24,7 @@ const heros = ["shaktiman" , "naagraj", "hulk"]
 
 let myObj = {
     name: "mobashshir",
-    age: 25,
+    age: 24,
 }
 
 const myFunction = function(){
