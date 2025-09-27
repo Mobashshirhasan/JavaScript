@@ -28,6 +28,10 @@ const shoppingCart = [
         itemName: "css course",
         price: 599
     },
+    {
+        itemName: "Java course",
+        price: 599
+    },
 
 ]
 
