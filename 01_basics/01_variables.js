@@ -7,7 +7,7 @@ accountCity = "Bangalore"
 
 accountEmail = "mobi@gmail.com"
 accountPassword = "154893"
-accountCity = "Jaipur"
+accountCity = "Jaipur   "
 
 console.log(accountId);
 
