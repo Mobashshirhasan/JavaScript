@@ -18,3 +18,11 @@ console.table([accountId, accountEmail, accountPassword, accountCity])
 do not use var
 because ofissue in the block scope and functional scope
 */
+
+
+let my = "hello"
+let i = my
+i = 'hi'
+
+console.log(my)
+console.log(i)
