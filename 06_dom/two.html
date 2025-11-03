@@ -7,7 +7,7 @@
     <title>DOM | Chai aur Code</title>
 </head>
 
-<body>
+<body style="background-color: black; color: aliceblue;">
     <div class="parent">
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
@@ -17,6 +17,22 @@
         <div class="day">Saturday</div>
         <div class="day">Sunday</div>
     </div>
+    <script>
+        const parent = document.querySelector('.parent')
+        console.log(parent);
+        console.log(parent.children);
+        console.log(parent.children[1].innerHTML);
+        
+        // for(let i = 0; i< parent.children.length; i++){
+        //     console.log(parent.children[i].innerHTML);
+            
+        // }
+
+        parent.children[1].style.color = "orange"
+        parent.children[2].style.color = "red"
+        parent.children[0].style.color = "green"
+        parent.children[3].style.color = "blue"
+    </script>
 </body>
 
 </html>
