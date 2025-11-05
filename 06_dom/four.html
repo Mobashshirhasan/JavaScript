@@ -12,12 +12,18 @@
 </body>
 <script>
     function addLanguage(langName){
-        const myli = document.createElement('li')
-        myli.appendChild(document.createTextNode(langName))
-
-        document.querySelector('ul').appendChild(myli)
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(li)
     }
-    addLanguage("Python")
+    addLanguage("python")
+    addLanguage("java")
+    addLanguage("typescript")
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+    }
     
 </script>
 </html>
