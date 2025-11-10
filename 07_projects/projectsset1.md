@@ -3,7 +3,7 @@
 ## project 1
 
 ```
-Javascript
+Javascript Tutorial
 
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector("body")
@@ -175,6 +175,5 @@ function newGame() {
     playGame = true;
   });
 }
-
 
 ```
