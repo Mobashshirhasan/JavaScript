@@ -8,6 +8,6 @@ const myObj = {
 }
 console.log(myObj);
 
-const filterObj = Object.entries(myObj)
+const filterObj = Object.fromEntries(Object.entries(myObj).filter( (arr) => arr[1] > 50));
 
 console.log(filterObj)
