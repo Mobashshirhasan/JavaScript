@@ -2,6 +2,8 @@
 
 const myArr = [1,9,4,6,23,76,40,50]
 
-const sort = myArr[0] > myArr[1]
+for (let i = 0; i <= myArr.length; i++){
+    
+}
 
 console.log(sort);
